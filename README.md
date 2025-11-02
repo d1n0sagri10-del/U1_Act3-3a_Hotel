@@ -1,4 +1,4 @@
-# Proyecto HOTEL 🏨
+# Proyecto HOTEL
 
 Este proyecto implementa un sistema básico de gestión de hotel en **Python**, con clases y relaciones modeladas mediante un **diagrama UML**.
 
