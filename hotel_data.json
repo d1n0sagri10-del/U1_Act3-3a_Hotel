@@ -1,0 +1,93 @@
+{
+  "hotel": {
+    "nombre": "Hotel ejemplo",
+    "estrellas": 3
+  },
+  "habitaciones": [
+    {
+      "numero": 101,
+      "tipo": "sencilla",
+      "precio": 100.0,
+      "foto": "img101.jpg",
+      "extra": {
+        "exterior": true
+      }
+    },
+    {
+      "numero": 102,
+      "tipo": "sencilla",
+      "precio": 100.0,
+      "foto": "img102.jpg",
+      "extra": {
+        "exterior": false
+      }
+    },
+    {
+      "numero": 201,
+      "tipo": "doble",
+      "precio": 80.0,
+      "foto": "img201.jpg",
+      "extra": {
+        "cama_matrimonial": true
+      }
+    },
+    {
+      "numero": 202,
+      "tipo": "doble",
+      "precio": 75.0,
+      "foto": "img202.jpg",
+      "extra": {
+        "cama_matrimonial": false
+      }
+    },
+    {
+      "numero": 301,
+      "tipo": "suite",
+      "precio": 150.0,
+      "foto": "img301.jpg",
+      "extra": {
+        "banera": true,
+        "sauna": false,
+        "mirador": true
+      }
+    }
+  ],
+  "clientes": [
+    {
+      "id_cliente": 1,
+      "nombre": "Ana Perez",
+      "direccion": "Calle 1",
+      "telefono": "123456",
+      "habitual": true,
+      "descuento": 10.0,
+      "suscrito_ofertas": false
+    },
+    {
+      "id_cliente": 2,
+      "nombre": "Luis Gomez",
+      "direccion": "Calle 2",
+      "telefono": "234567",
+      "habitual": false,
+      "descuento": 0.0,
+      "suscrito_ofertas": true
+    },
+    {
+      "id_cliente": 3,
+      "nombre": "Mariana",
+      "direccion": "CALLE 20 15 25",
+      "telefono": "31231251212",
+      "habitual": true,
+      "descuento": 0.0,
+      "suscrito_ofertas": false
+    }
+  ],
+  "reservas": [
+    {
+      "id_reserva": 1,
+      "cliente_id": 3,
+      "habitacion_num": 101,
+      "fecha_entrada": "2025-10-30",
+      "dias": 7
+    }
+  ]
+}
